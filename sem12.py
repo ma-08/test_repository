@@ -2,7 +2,7 @@ import re
 
 
 class Word:
-    allowed_languages = ['русский', 'английский']
+    allowed_languages = ['русский', 'французский']
 
     def __init__(self, glossed: str, gloss: str, language):
         self.glossed = glossed
